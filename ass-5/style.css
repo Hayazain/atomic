@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman';
+}
+
+.container{
+    width: 100%;
+    min-height: 100hv;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 50px;
+    cursor: pointer;
+    margin: 30px 0;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+nav ul li a:hover{
+    color:green
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0;
+}
+
+.col-1{
+    flex-basis: 40%;
+    position: relative;
+    margin-left: 50px;
+}
+
+.col-1 h2{
+    font-size: 54px;
+}
+
+.col-1 p{
+    font-size: 16px;
+    font-weight: 100;
+    color: cadetblue;
+    margin: 30px 0;
+}
+
+button{
+    width: 140px;
+    border: 0;
+    padding: 12px 10px;
+    outline: none;
+    color: black;
+    background-color: skyblue;
+    /* background: linear-gradient(to right, #fb5283, #ff3527); */
+    border-radius: 6px;
+    cursor: pointer;
+    transition: width 0.5s;
+}
+
+button:hover{
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.col-2{
+    flex-basis: 40%;
+    display: flex;
+    align-items: right;
+}
+
+.col-2 .rose{
+    width: 90%;
+    transition: 2s;
+}
+
+.rose:hover{
+    transition:step-start;
+    transform: rotateY(360deg);
+}
+
+.last{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0;
+}
+
+.pink{
+    flex-basis: 60%;
+    position: relative;
+    align-items: center;
+}
+
+.pink p{
+    font-size: 16px;
+    font-weight: 100;
+    color: cadetblue;
+    margin: 30px 0;
+}
+
+.orange{
+    flex-basis: 60%;
+    position: relative;
+    align-items: center;
+}
+
+.orange p{
+    font-size: 16px;
+    font-weight: 100;
+    color: cadetblue;
+    margin: 30px 0;
+}
+
+.blue{
+    flex-basis: 60%;
+    position: relative;
+    align-items: center;
+}
+
+.blue p{
+    font-size: 16px;
+    font-weight: 100;
+    color: cadetblue;
+    margin: 30px 0;
+}
+
+.img:hover{
+    transform: scale(1.1);
+    transition:step-start;
+}
+
+.head:hover{
+    color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
